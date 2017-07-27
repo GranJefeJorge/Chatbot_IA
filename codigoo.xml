@@ -12,11 +12,13 @@
     <context>
       <input pattern="(bien) *">
       <output value="Me alegro mucho!"/>    
+      </input>
     </context>
 
     <context>
       <input pattern="(mal) *">
-      <output value="Me alegro mucho!"/>    
+      <output value="Me alegro mucho!"/> 
+      </input>   
     </context>
     
   </input>
