@@ -2,18 +2,14 @@
   <input pattern="(hola|hello) *">
     <output value="Hola que tal $UserName!"/>
     
-  </input>
   
-</context>
-
+  
 <context id="bien" >
   <input pattern="(bien|muy) *">
       <output value="Me alegro mucho!"/>    
   </input>  
 </context>
 
-<context id="mal">
-      <input pattern="(mal|muy) *">
-      <output value="que mal lo siento mucho!"/> 
-      </input>   
+</input>
+
 </context>
