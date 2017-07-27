@@ -13,7 +13,17 @@
     </context>
   </input>
 
-  <input pattern="(necesito|ayuda) *">
+<input pattern="(necesito|ayuda) *">
       <output value="en que te puedo ayudar?"/>
+
+      <context id="ayuda" >
+        <input pattern="(informacion) *">
+          <output value="sobre que quieres saber?"/>
+        </input>
+        
+      </context>
+      
   </input>
+      
+
 </context>
