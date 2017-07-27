@@ -10,6 +10,12 @@
   </input>  
 </context>
 
+<context id="mal">
+      <input pattern="(mal|muy) *">
+      <output value="que mal lo siento mucho!"/> 
+      </input>   
+</context>
 </input>
 
 </context>
+
