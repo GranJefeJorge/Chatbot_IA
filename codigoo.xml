@@ -16,7 +16,4 @@
   <input pattern="(necesito|ayuda) *">
       <output value="en que te puedo ayudar?"/>
   </input>
-      
-    </input>
-
 </context>
