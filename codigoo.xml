@@ -11,6 +11,7 @@
   
   <input pattern="(mal|muy) *">
       <output value="que mal lo siento mucho!"/> 
+      <output value="en que te puedo servir?"/>
   </input> 
 
 </context>
