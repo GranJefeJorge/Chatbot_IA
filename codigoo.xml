@@ -13,11 +13,9 @@
     </context>
   </input>
 
-  <input pattern="(necesito|quiero) *">
-    <context id="General" >
-      <input pattern="(ayuda) *">
-        <output value="en que te puedo ayudar?"/>
-      </input>
+  <input pattern="(necesito|ayuda) *">
+      <output value="en que te puedo ayudar?"/>
+  </input>
       
     </context> 
   </input>
