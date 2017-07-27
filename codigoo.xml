@@ -5,3 +5,15 @@
   </input>
   
 </context>
+
+<context >
+  <input pattern="(bien|muy) *">
+      <output value="Me alegro mucho!"/>    
+  </input>  
+</context>
+
+<context>
+      <input pattern="(mal|muy) *">
+      <output value="Me alegro mucho!"/> 
+      </input>   
+</context>
