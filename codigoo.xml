@@ -6,14 +6,14 @@
   
 </context>
 
-<context >
+<context id="bien" >
   <input pattern="(bien|muy) *">
       <output value="Me alegro mucho!"/>    
   </input>  
 </context>
 
-<context>
+<context id="mal">
       <input pattern="(mal|muy) *">
-      <output value="Me alegro mucho!"/> 
+      <output value="que mal lo siento mucho!"/> 
       </input>   
 </context>
