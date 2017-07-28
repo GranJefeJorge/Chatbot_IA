@@ -1,4 +1,4 @@
-<context>
+<contex
   <input pattern="(hola|hello) *">
     <output value="Hola que tal $UserName!"/>
     <context id="Estado" >
