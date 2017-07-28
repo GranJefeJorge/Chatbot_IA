@@ -1,12 +1,12 @@
-<contex
+<context>
   <input pattern="(hola|hello) *">
     <output value="Hola que tal $UserName!"/>
     <context id="Estado" >
       <input pattern="(bien|muy) *">
-        <output value="Me alegro mucho!, dime en que te puedo srevir?"/>    
+        <output value="Me alegro mucho!, dime en que te puedo servir?"/>    
       </input>  
       <input pattern="(mal|muy) *">
-        <output value="que mal lo siento mucho!, pero dime en que te puedo srevir?"/> 
+        <output value="que mal lo siento mucho!, pero dime en que te puedo servir?"/> 
       </input> 
     </context>
   </input>
