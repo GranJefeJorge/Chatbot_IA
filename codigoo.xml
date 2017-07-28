@@ -1,29 +1,35 @@
 <context>
   <input pattern="(hola|hello) *">
     <output value="Hola que tal $UserName!"/>
-    
     <context id="Estado" >
       <input pattern="(bien|muy) *">
         <output value="Me alegro mucho!, dime en que te puedo srevir?"/>    
       </input>  
-  
       <input pattern="(mal|muy) *">
         <output value="que mal lo siento mucho!, pero dime en que te puedo srevir?"/> 
       </input> 
     </context>
   </input>
-
+  
 <input pattern="(necesito|ayuda) *">
       <output value="en que te puedo ayudar?"/>
-
       <context id="ayuda" >
         <input pattern="(necesito|informacion) *">
           <output value="sobre que quieres saber?"/>
         </input>
         
-      </context>
-      
-  </input>
-      
+        <input pattern="(zona|sona) *">
+          <output value="la zona esta dividida en dos partes."/>
+        </input>
 
+        <input pattern="(tareas|deberes) *">
+          <output value="los deberes de esta semana son:"/>
+        </input>
+
+        <input pattern="(proyecto) *">
+          <output value="El proyecto final es:."/>
+        </input>
+      
+      </context>
+  </input>
 </context>
